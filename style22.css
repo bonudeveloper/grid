@@ -1,0 +1,31 @@
+.father {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(3,100px);
+    grid-gap: 10px;
+    grid-template-areas: 
+    "h h h h"
+    "n a a ad"
+    "n f f f";
+
+}
+.items {
+    background-color: darkorange;
+}
+
+
+.item1 {
+    grid-area: h;
+}
+.item2 {
+    grid-area: n;
+}
+.item3 {
+    grid-area: a;
+}
+.item4 {
+    grid-area: ad;
+}
+.item5 {
+    grid-area: f;
+}

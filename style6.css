@@ -1,0 +1,38 @@
+.calculate {
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(6,100px);
+    grid-gap: 5px;
+    color: white;
+}
+.cal:hover {
+    background-color: white;
+    color: black;
+}
+.cal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+    background-color: darkgray;
+}
+.blac {
+    grid-column: 1/span 4;
+    background-color: black;
+    color: white;
+}
+.ac {
+    grid-column: 1/span 2;
+    background-color: brown;
+   
+}
+.zero {
+    grid-column: 1 /span 2;
+}
+
+/* .point {
+    grid-column: 3/ span 2;
+} */
+.rovno {
+    grid-row: span 2;
+}

@@ -1,0 +1,40 @@
+.father {
+    display: grid;
+    grid-template-columns: repeat(4,150px);
+    grid-template-rows: repeat(3,90px);
+    grid-gap: 10px;
+    grid-template-areas: 
+    "nav head head head "
+    "nav c1 c2 c3"
+    "nav  c1 c2 c4"
+    "nav f f f";
+}
+.items {
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.nav {
+    grid-area: nav;
+}
+.head {
+    grid-area: head;
+}
+.card1 {
+    grid-area: c1;
+}
+.card2 {
+    grid-area: c2;
+}
+.card3 {
+    grid-area: c3;
+}
+.card4 {
+    grid-area: c4;
+}
+.foot {
+    grid-area: f;
+}

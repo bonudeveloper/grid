@@ -1,0 +1,19 @@
+.father-div {
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: repeat(3,300px);
+    gap: 10px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 27px;
+    background-color: aqua;
+}
+.three {
+   grid-column: 2/4;
+   grid-row: 2/4;
+}
